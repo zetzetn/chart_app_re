@@ -1,9 +1,8 @@
 document.addEventListener('turbolinks:load', () => {
     // 折れ線グラフのデータ（値を変更するとグラフが変化することを確認してみて下さい）
-    // ***** 次に置き換える *****
-    const lineLabel = gon.chart_label
-    const lineData = gon.chart_data
-    
+    const lineLabel = ['1/1', '1/2', '1/4', '1/5', '1/6', '1/7']
+    const lineData = [60.3, 61.1, 60.8, null, 60.5, 61.4]
+
     // 折れ線グラフのオプション
 
     const lineChartData = {
